@@ -1,53 +1,11 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "nombre": "Autopista La Paz - El Alto",
-          "tipo": "principal",
-          "longitud": 12.5
-        },
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-68.119293, -16.489689],
-            [-68.145385, -16.475],
-            [-68.175, -16.5]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "nombre": "Ruta a Oruro",
-          "tipo": "principal",
-          "longitud": 45.2
-        },
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-68.175, -16.5],
-            [-68.2, -16.52],
-            [-68.25, -16.55]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "nombre": "Ruta al Lago Titicaca",
-          "tipo": "secundaria",
-          "longitud": 28.7
-        },
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-68.119293, -16.489689],
-            [-68.1, -16.45],
-            [-68.05, -16.4]
-          ]
-        }
-      }
-    ]
-  }
+"type": "FeatureCollection",
+"name": "carreteras",
+"features": [
+{ "type": "Feature", "properties": { "nombre": "Autopista La Paz - El Alto", "tipo": "principal", "longitud": 12.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -68.119293, -16.489689 ], [ -68.145385, -16.475 ], [ -68.175, -16.5 ] ] } },
+{ "type": "Feature", "properties": { "nombre": "Ruta a Oruro", "tipo": "principal", "longitud": 45.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -68.175, -16.5 ], [ -68.2, -16.52 ], [ -68.25, -16.55 ] ] } },
+{ "type": "Feature", "properties": { "nombre": "Ruta al Lago Titicaca", "tipo": "secundaria", "longitud": 28.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -68.119293, -16.489689 ], [ -68.1, -16.45 ], [ -68.05, -16.4 ] ] } },
+{ "type": "Feature", "properties": { "nombre": null, "tipo": null, "longitud": null }, "geometry": { "type": "LineString", "coordinates": [ [ -68.280953359426931, -16.529871938471629 ], [ -68.249992442053525, -16.504164186523411 ], [ -68.225370147928118, -16.508284249533574 ], [ -68.189156263699601, -16.51524521664544 ], [ -68.146038115779859, -16.514929037599021 ], [ -68.136343201845293, -16.503324667769327 ] ] } },
+{ "type": "Feature", "properties": { "nombre": null, "tipo": null, "longitud": null }, "geometry": { "type": "LineString", "coordinates": [ [ -68.216496058349634, -16.557977164920086 ], [ -68.190638687380087, -16.529904396078503 ], [ -68.195325264332936, -16.492144622556847 ], [ -68.196809429193721, -16.469940950741687 ] ] } }
+]
+}
